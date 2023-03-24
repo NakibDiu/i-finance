@@ -11,7 +11,7 @@ const Navbar = () => {
       <div className="mx-14 my-4 hidden lg:flex justify-around items-center">
         <div className="flex gap-10">
           <h2 className="font-bold text-base text-[#252B42] leading-8">
-            BrandName
+            <a href="/">BrandName</a>
           </h2>
           <ul className="flex gap-5 items-center">
             <li className="font-semibold text-sm text-[#737373]">
@@ -29,16 +29,16 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="flex gap-11 items-center">
-          <h4 className="font-bold text-sm text-[#23A6F0]">Login</h4>
-          <div className="bg-[#23A6F0] rounded-md px-6 py-4 text-white">
+          <h4 className="font-bold text-sm text-[#23A6F0] cursor-pointer">Login</h4>
+          <div className="bg-[#23A6F0] rounded-md px-6 py-4 text-white cursor-pointer">
             Become a member
             <img src="../../assets/icons/arrow.png" alt="" />
           </div>
         </div>
       </div>
       {/* small device */}
-      <div className="block lg:hidden">
-        <div className="m-9 flex gap-6 justify-around items-center">
+      <div className="block lg:hidden bg-[#F7F7F7]">
+        <div className="p-9 flex gap-6 justify-around items-center">
           <h2 className="font-bold text-base leading-8 text-[#252B42]">
             BrandName
           </h2>
